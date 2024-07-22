@@ -1,3 +1,7 @@
+// Student ID: 20111176
+// Student Name: Sukwhan KO
+// Course: ICT50220 Diploma of Information Technology (Back End Web Development)
+
 // Challenge 2 Starter
 // Initialise the arrays
 let array1 = [1, 2, 3, 2];

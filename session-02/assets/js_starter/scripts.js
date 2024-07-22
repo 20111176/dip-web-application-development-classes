@@ -1,3 +1,7 @@
+// Student ID: 20111176
+// Student Name: Sukwhan KO
+// Course: ICT50220 Diploma of Information Technology (Back End Web Development)
+
 // const fruits = ["banana", "pear", "apple"];
 // // fruits.push("mango");
 // // fruits.unshift("orange");
