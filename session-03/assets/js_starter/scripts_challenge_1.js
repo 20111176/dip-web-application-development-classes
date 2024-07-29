@@ -17,13 +17,19 @@ const userObject = {
     isEmployed: true,
 
     // Method to change the age property
-
+    changeAge: function(newAge) {
+       this.age = newAge;
+       console.log(`== Age updated ==`)
+    }
 };
 
 // Execute the method to change the age
+console.log(`Default age: ${userObject.age}`)
+userObject.changeAge(42);
 
 
 // Log the updated complexObject
+console.log(`New age: ${userObject.age}`)
 
 
 
