@@ -20,7 +20,7 @@ const userObject = {
     changeAge: function(newAge) {
        this.age = newAge;
        console.log(`== Age updated ==`)
-    }
+    },
 };
 
 // Execute the method to change the age
@@ -31,5 +31,11 @@ userObject.changeAge(42);
 // Log the updated complexObject
 console.log(`New age: ${userObject.age}`)
 
+list = [
+    {name:`One`, age:10},
+    {name:`Two`, age:15},
+    {name:`Three`, age:40},
+    {name:`Four`, age:20},
+]
 
-
+ordering=(x,y) =>{return x.age<y.age?-1:1}
